@@ -77,7 +77,7 @@ const Cart = () => {
           </div>
         </div>
       </dialog>
-      <div className="w-full bg-white p-4 rounded-lg">
+      <div className="w-full bg-white p-5 rounded-lg">
         <h1 className="text-orange-700 heading-text text-xl">Your Cart ({state.cardItem.length > 0 ? state.cardItem.length : 0})</h1>
         
         {(!state.cardItem || state.cardItem.length === 0) && (

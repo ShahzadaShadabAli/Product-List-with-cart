@@ -47,7 +47,7 @@ const Card = ({foodItem}) => {
 
 
     return (
-        <div className="w-[235px] max-sm:w-full relative mb-3">
+        <div className="w-[235px] max-sm:w-full relative mb-[2.2rem]">
            
            <img
   src={foodItem.image.mobile}
